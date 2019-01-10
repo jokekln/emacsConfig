@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/Code/tinyhttpd/" "~/Code/project_root/project_root/" "~/Code/ZXLSocket/")

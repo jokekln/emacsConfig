@@ -1,0 +1,278 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [702 720])
+            ("sys/socket.h" include (:system-flag t) nil [721 744])
+            ("sys/types.h" include (:system-flag t) nil [745 767])
+            ("netinet/in.h" include (:system-flag t) nil [768 791])
+            ("arpa/inet.h" include (:system-flag t) nil [792 814])
+            ("unistd.h" include (:system-flag t) nil [815 834])
+            ("ctype.h" include (:system-flag t) nil [835 853])
+            ("strings.h" include (:system-flag t) nil [854 874])
+            ("string.h" include (:system-flag t) nil [875 894])
+            ("sys/stat.h" include (:system-flag t) nil [895 916])
+            ("sys/wait.h" include (:system-flag t) nil [940 961])
+            ("stdlib.h" include (:system-flag t) nil [962 981])
+            ("ISspace" variable (:constant-flag t) nil [991 998])
+            ("SERVER_STRING" variable (:constant-flag t) nil [1029 1042])
+            ("accept_request" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1093 1097]))                  
+                :type "void")
+                nil [1073 1098])
+            ("bad_request" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1116 1120]))                  
+                :type "void")
+                nil [1099 1121])
+            ("cat" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1131 1135])
+                    ("" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1136 1143]))                  
+                :type "void")
+                nil [1122 1144])
+            ("cannot_execute" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1165 1169]))                  
+                :type "void")
+                nil [1145 1170])
+            ("error_die" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1186 1199]))                  
+                :type "void")
+                nil [1171 1200])
+            ("execute_cgi" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1218 1222])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1223 1236])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1237 1250])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1251 1264]))                  
+                :type "void")
+                nil [1201 1265])
+            ("get_line" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1279 1283])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1284 1291])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1292 1296]))                  
+                :type "int")
+                nil [1266 1297])
+            ("headers" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1311 1315])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1316 1329]))                  
+                :type "void")
+                nil [1298 1330])
+            ("not_found" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1346 1350]))                  
+                :type "void")
+                nil [1331 1351])
+            ("serve_file" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1368 1372])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1373 1386]))                  
+                :type "void")
+                nil [1352 1387])
+            ("startup" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("u_short" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1400 1410]))                  
+                :type "int")
+                nil [1388 1411])
+            ("unimplemented" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1431 1435]))                  
+                :type "void")
+                nil [1412 1436])
+            ("accept_request" function
+               (:arguments 
+                  ( ("client" variable (:type "int") (reparse-symbol arg-sub-list) [1769 1780]))                  
+                :type "void")
+                nil [1749 4322])
+            ("bad_request" function
+               (:arguments 
+                  ( ("client" variable (:type "int") (reparse-symbol arg-sub-list) [4582 4593]))                  
+                :type "void")
+                nil [4565 5029])
+            ("cat" function
+               (:arguments 
+                  ( ("client" variable (:type "int") (reparse-symbol arg-sub-list) [5484 5495])
+                    ("resource" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5496 5511]))                  
+                :type "void")
+                nil [5475 5693])
+            ("cannot_execute" function
+               (:arguments 
+                  ( ("client" variable (:type "int") (reparse-symbol arg-sub-list) [5970 5981]))                  
+                :type "void")
+                nil [5950 6330])
+            ("error_die" function
+               (:arguments 
+                  ( ("sc" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [6669 6684]))                  
+                :type "void")
+                nil [6654 6769])
+            ("execute_cgi" function
+               (:arguments 
+                  ( ("client" variable (:type "int") (reparse-symbol arg-sub-list) [7099 7110])
+                    ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7111 7128])
+                    ("method" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7146 7165])
+                    ("query_string" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7166 7191]))                  
+                :type "void")
+                nil [7082 9900])
+            ("get_line" function
+               (:arguments 
+                  ( ("sock" variable (:type "int") (reparse-symbol arg-sub-list) [10679 10688])
+                    ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [10689 10699])
+                    ("size" variable (:type "int") (reparse-symbol arg-sub-list) [10700 10709]))                  
+                :type "int")
+                nil [10666 11207])
+            ("headers" function
+               (:arguments 
+                  ( ("client" variable (:type "int") (reparse-symbol arg-sub-list) [11515 11526])
+                    ("filename" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [11527 11548]))                  
+                :type "void")
+                nil [11502 11914])
+            ("not_found" function
+               (:arguments 
+                  ( ("client" variable (:type "int") (reparse-symbol arg-sub-list) [12129 12140]))                  
+                :type "void")
+                nil [12114 12899])
+            ("serve_file" function
+               (:arguments 
+                  ( ("client" variable (:type "int") (reparse-symbol arg-sub-list) [13311 13322])
+                    ("filename" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [13323 13344]))                  
+                :type "void")
+                nil [13295 13905])
+            ("startup" function
+               (:arguments 
+                  ( ("port" variable
+                       (:pointer 1
+                        :type ("u_short" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14377 14391]))                  
+                :type "int")
+                nil [14365 15669])
+            ("unimplemented" function
+               (:arguments 
+                  ( ("client" variable (:type "int") (reparse-symbol arg-sub-list) [15951 15962]))                  
+                :type "void")
+                nil [15932 16634])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [16719 16724]))                  
+                :type "int")
+                nil [16710 17436]))          
+      :file "httpd.c"
+      :pointmax 17437
+      :fsize 20220
+      :lastmodtime '(23605 35095 452579 111000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("ISspace" (spp-arg-list ("x") 998 . 1001) . ((symbol "isspace" 1002 . 1009) (semantic-list "((int)(x))" 1009 . 1019)))
+          ("SERVER_STRING" . ((string "\"Server: jdbhttpd/0.1.0\\r\\n\"" 1043 . 1071)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("sys/types.h" include (:system-flag t) nil [20 42])
+            ("sys/socket.h" include (:system-flag t) nil [43 66])
+            ("netinet/in.h" include (:system-flag t) nil [67 90])
+            ("arpa/inet.h" include (:system-flag t) nil [91 113])
+            ("unistd.h" include (:system-flag t) nil [114 133])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [144 153])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [154 167]))                  
+                :type "int")
+                nil [135 971]))          
+      :file "simpleclient.c"
+      :pointmax 972
+      :fsize 1167
+      :lastmodtime '(23605 35095 452579 111000)
+      :unmatched-syntax nil))
+  :file "!home!zhangxl!Code!tinyhttpd!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
